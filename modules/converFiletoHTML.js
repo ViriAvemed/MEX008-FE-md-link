@@ -1,10 +1,17 @@
 const MarkdownIt = require("markdown-it");
+const readFileMd = require('./readFileMd');
 md = new MarkdownIt();
 
 
 
-
 const convertFile = () => {
-
-  md.render(resolve);
+  const newFile = md.render(readFileMd());
+  console.log(newFile);
 };
+
+
+convertFile();
+
+
+
+module.exports = convertFile;

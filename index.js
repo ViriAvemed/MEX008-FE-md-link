@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const readFileMd = require('./modules/readFileMd');
 const typeOfFile = require('./modules/restrictFile');
-
+const convertFile = require('./modules/converFiletoHTML');
 
 //
 

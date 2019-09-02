@@ -8,3 +8,5 @@ typeOfFile()
 
 module.exports =typeOfFile;
 console.log(typeof typeOfFile())
+
+

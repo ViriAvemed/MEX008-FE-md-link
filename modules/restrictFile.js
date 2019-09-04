@@ -1,12 +1,12 @@
-const pathFile = require ("path");
+const path = require("path");
 
-const typeOfFile =() =>{
-  return pathFile.extname("./README.md") === ".md";
-    };
+ const typeOfFile = (inputFile) => {
+   return path.extname(inputFile) === ".md";
+ };
 
-typeOfFile()
+module.exports = typeOfFile;
 
-module.exports =typeOfFile;
-console.log(typeof typeOfFile())
+
+
 
 

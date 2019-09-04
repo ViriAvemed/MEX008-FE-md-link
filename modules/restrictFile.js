@@ -1,6 +1,6 @@
 const path = require("path");
 
- const typeOfFile = (inputFile) => {
+const typeOfFile = (inputFile) => {
    return path.extname(inputFile) === ".md";
  };
 

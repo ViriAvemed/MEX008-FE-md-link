@@ -18,7 +18,7 @@ Para instalar la dependencia en tu proyecto debes ejecutar el siguiente comando 
  $ npm i the-links
  ``` 
 
-## Funcionamiento Interfaz de Línea de Comando)
+## Funcionamiento Interfaz de Línea de Comando
 
 * Ruta sin opciones
 

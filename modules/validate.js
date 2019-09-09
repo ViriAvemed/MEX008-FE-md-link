@@ -16,9 +16,4 @@ const getValidation = (arr) => {
 };
 
 
-
-
-
-
-
 module.exports = getValidation;
